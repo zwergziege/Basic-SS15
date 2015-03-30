@@ -1,0 +1,61 @@
+namespace Trax
+
+	class TraxGame
+		private Map<Coord, Tile> board_ // all laid tiles
+		private Map<Coord, Tile> open_tiles_ // coords where tiles can be laid
+		private uint played_tiles_ = 0 // counter
+
+		public bool executeCommand (Command command)
+			// main interface
+			// error-msgs in respective command execution methods
+			// Write, AddTile, Quit
+
+		private bool addTile (Coord coord, Tile tile)
+			// check if tile can be laid
+			// do so, or return false
+			// adjust board_ and open_tiles_ maps accordingly
+
+		private void completeBoard ()
+			// fill fixed fields
+			// check if game won or out of tiles
+
+		private bool write (string filename) // write map to file
+
+		private void quit () // quit game and output bye-msg
+
+		public TraxGame () // initialize maps etc.
+
+//#######################################################################
+
+	class Tile
+		public Color getLeft ()
+		public Color getTop ()
+		public Color getRight ()
+		public Color getBottom ()
+		...
+
+//#######################################################################
+
+	Class Coord
+		...
+
+//#######################################################################
+
+	class Command
+		public static Command ParseCommand (string command_string)
+			// parse command string and return as command object
+			// output error msgs
+
+		private Command () // disable constructors / use factory pattern
+		...
+
+//#######################################################################
+
+	class CommandLineInterface
+		public outputErrorMessage (Error error) // access to cout/cin only here
+		...
+
+//#######################################################################
+
+	enum Color
+	enum Error

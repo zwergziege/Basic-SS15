@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW", "..\..\..\..\SkyDrive\TU\SEP\EX\HW\HW.vcxproj", "{8B53C739-1E6A-4E05-A6B0-AC3A9BBA9929}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HW", "HW\HW.vcxproj", "{8B53C739-1E6A-4E05-A6B0-AC3A9BBA9929}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Basic", "Basic\Basic.vcxproj", "{4F1E2E3E-4157-4658-ADDF-94542D2933C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8B53C739-1E6A-4E05-A6B0-AC3A9BBA9929}.Debug|Win32.Build.0 = Debug|Win32
 		{8B53C739-1E6A-4E05-A6B0-AC3A9BBA9929}.Release|Win32.ActiveCfg = Release|Win32
 		{8B53C739-1E6A-4E05-A6B0-AC3A9BBA9929}.Release|Win32.Build.0 = Release|Win32
+		{4F1E2E3E-4157-4658-ADDF-94542D2933C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F1E2E3E-4157-4658-ADDF-94542D2933C8}.Debug|Win32.Build.0 = Debug|Win32
+		{4F1E2E3E-4157-4658-ADDF-94542D2933C8}.Release|Win32.ActiveCfg = Release|Win32
+		{4F1E2E3E-4157-4658-ADDF-94542D2933C8}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
